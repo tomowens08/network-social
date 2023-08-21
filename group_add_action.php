@@ -1,0 +1,148 @@
+<?php
+  session_start();
+if ($_SESSION["logged_in"]!="yes")
+{
+        print ("<script language='JavaScript'> window.location='login.php'; </script>");
+}
+  else
+{
+?>
+<SCRIPT language="JavaScript">
+<?php
+include("includes/script.inc");
+?>
+</script>
+<?php
+include("includes/top.php");
+include("includes/nav.php");
+include("includes/conn.php");
+//include("includes/right.php");
+?>
+
+<tr>
+<td valign="top" bgcolor="#FFFFFF">
+<!-- middle_content -->
+
+<p align='center'>
+<?
+
+  print "<table width='815'>";
+  print "<tr>";
+  print "<td width='20%'>";
+    include("includes/group_menu.php");
+  print "</td>";
+
+
+  print "<td width='80%' valign='top'>";
+  print "<table width='100%' align='center' class='dark_b_border2'>";
+  print "<tr><td colspan='2' class='dark_blue_white2'>";
+  print "<h3>Create a Group</h3></td></tr>";
+
+  print "<tr><td class='login'>";
+  print "<table width='100%' cellpadding='4' cellspacing='0'>";
+
+
+     include("includes/class.groups.php");
+     $group=new groups;
+
+
+     $group_name=$HTTP_POST_VARS["group_name"];
+     $group_cat=$HTTP_POST_VARS["group_cat"];
+     $type=$HTTP_POST_VARS["type"];
+     $hidden_group=$HTTP_POST_VARS["hidden_group"];
+     $members_invite=$HTTP_POST_VARS["members_invite"];
+     $public_forum=$HTTP_POST_VARS["public_forum"];
+     $post_bulletins=$HTTP_POST_VARS["post_bulletins"];
+     $post_images=$HTTP_POST_VARS["post_images"];
+     $country=$HTTP_POST_VARS["country"];
+     $city=$HTTP_POST_VARS["city"];
+     $state=$HTTP_POST_VARS["state"];
+     $zip_code=$HTTP_POST_VARS["zip_code"];
+     $description=$HTTP_POST_VARS["description"];
+
+
+if (!$_GET['group_id']) {
+
+if($group_name==Null||$city==Null||$state==Null||$zip_code==Null||$description==Null)
+{
+
+  print "<form name='send_back' action='create_group.php?err=1' method='post'>";
+  print "<input type='hidden' name='group_name' value='$group_name'>";
+  print "<input type='hidden' name='group_cat' value='$group_cat'>";
+  print "<input type='hidden' name='type' value='$type'>";
+  print "<input type='hidden' name='hidden_group' value='$hidden_group'>";
+  print "<input type='hidden' name='members_invite' value='$members_invite'>";
+  print "<input type='hidden' name='public_forum' value='$group_name'>";
+  print "<input type='hidden' name='post_bulletins' value='$public_forum'>";
+  print "<input type='hidden' name='post_bulletins' value='$post_bulletins'>";
+  print "<input type='hidden' name='post_images' value='$post_images'>";
+  print "<input type='hidden' name='country' value='$country'>";
+  print "<input type='hidden' name='city' value='$city'>";
+  print "<input type='hidden' name='state' value='$state'>";
+  print "<input type='hidden' name='zip_code' value='$zip_code'>";
+  print "</form>";
+
+  print "<script language='JavaScript'>";
+        print "document.send_back.submit();";
+  print "</script>";
+		exit;
+	}
+		$sql = "SELECT count(*) as num FROM groups WHERE group_name = '".$group_name."'";
+		$res = mysql_fetch_array(mysql_query($sql));
+		if (!$res['num']) {
+	    $res = $group->add_group($group_name,$group_cat,$type,$hidden_group,$members_invite,$public_forum,$post_bulletins,$post_images,$country,$city,$state,$zip_code,$description,$_SESSION["member_id"],intval($_POST['hide_from_all']));
+			echo '<script>document.location.replace(\''.$_SERVER['PHP_SELF'].'?group_id='.$res.'\')</script>';
+			exit;
+		} else {
+			$res = 0;
+		}
+}
+
+
+
+     if($res!=0 || $_GET['group_id'])
+     {
+         print "<tr>";
+         print "<td width='100%' colspan='2' class='txt_label'>";
+         print "Your group has been created successfully.<br>";
+         print "</td>";
+         print "</tr>";
+         print "<tr>";
+         print "<td width='100%' colspan='2' class='txt_label'>";
+         print "<a href='upload_group_image.php?group_id=$_GET[group_id]'>Upload Photographs</a>";
+         print "</td>";
+         print "</tr>";
+         print "<tr>";
+         print "<td width='100%' colspan='2' class='txt_label'>";
+         print "<a href='view_group.php?group_id=$_GET[group_id]'>Enter the Group</a>";
+         print "</td>";
+         print "</tr>";
+     }
+     else
+     {
+         print "<tr>";
+         print "<td width='100%' colspan='2' class='txt_label'>";
+         print "An error occured and group was not added at this time.<br>";
+         print "Please check back at a later time.";
+         print "</td>";
+         print "</tr>";
+     }
+
+
+
+  print "</td></tr>";
+  print "</table>";
+
+  print "</table>";
+  print "</td>";
+//    print "</table>";
+    print "</td></tr></table>";
+?>
+
+<!-- middle_content -->
+</blockquote>
+<!-- Middle Text -->
+<?php
+include("includes/bottom.php");
+}
+?>

@@ -1,0 +1,666 @@
+.verdana12 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: verdana
+}
+.button {
+	BORDER-RIGHT: #6699cc 2px groove; PADDING-RIGHT: 0.6em; BORDER-TOP: #6699cc 2px groove; PADDING-LEFT: 0.6em; FONT-WEIGHT: bold; FONT-SIZE: 100%; BACKGROUND: #d5e8fb; PADDING-BOTTOM: 0.2em; BORDER-LEFT: #6699cc 2px groove; COLOR: #000000; PADDING-TOP: 0.2em; BORDER-BOTTOM: #6699cc 2px groove
+}
+.admin {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ff0000; FONT-FAMILY: verdana
+}
+.openedmail {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #444444; FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+.mailtext {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #003399; FONT-FAMILY: verdana
+}
+.mailtext:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #003399; FONT-FAMILY: verdana; TEXT-DECORATION: underline
+}
+.mailtext:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #555555; FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+.classifiedstext {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #003399; FONT-FAMILY: verdana
+}
+.classifiedstext:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #003399; FONT-FAMILY: verdana; TEXT-DECORATION: underline
+}
+.mailtext:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ff0000; FONT-FAMILY: verdana; TEXT-DECORATION: underline
+}
+BODY {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+TD {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+LI {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+P {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+DIV {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+TEXTAREA {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.text {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.spacetext {
+	FONT-SIZE: 10pt; COLOR: #000000; LINE-HEIGHT: 18pt; FONT-FAMILY: arial,verdana,arial,sans-serif,helvetica
+}
+.redtext {
+	FONT-SIZE: 10pt; COLOR: #cc0000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.redtext8 {
+	FONT-SIZE: 8pt; COLOR: #cc0000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.redbtext {
+	FONT-SIZE: 10pt; COLOR: #cc0000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.redtext12b {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #cc0000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.bluebtext {
+	FONT-SIZE: 10pt; COLOR: #003399; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.redbtext {
+	FONT-SIZE: 10pt; COLOR: #cc0000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.utext {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica; TEXT-DECORATION: underline
+}
+.orangetext {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ff9800; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.orangetext2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff9933; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.orangetext15 {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ff6600; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.lightbluetext8 {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #336699; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.bluetext8 {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #003399; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.whitetext7 {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #ffffff; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.whitetext12 {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.whitetext15 {
+	FONT-WEIGHT: bold; FONT-SIZE: 15pt; COLOR: #ffffff; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.blacktext15 {
+	FONT-SIZE: 15pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.blacktext13 {
+	FONT-SIZE: 13pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.blacktext12 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.nametext {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.blacktext12nb {
+	FONT-SIZE: 12pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.blacktext10 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.blacktext10nb {
+	FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.blacktext7 {
+	FONT-SIZE: 7pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.footer {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.skip {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica; TEXT-ALIGN: right
+}
+.blacktext14bu {
+	FONT-SIZE: 14pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica; TEXT-DECORATION: underline
+}
+A {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica; TEXT-DECORATION: underline
+}
+A:link {
+	COLOR: #003399
+}
+A:active {
+	COLOR: #003399
+}
+A:visited {
+	COLOR: #003399
+}
+A:hover {
+	COLOR: #cc0000
+}
+A.readmail {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica; TEXT-DECORATION: underline
+}
+A.readmail:link {
+	COLOR: purple
+}
+A.readmail:active {
+	COLOR: #003399
+}
+A.readmail:visited {
+	COLOR: #003399
+}
+A.readmail:hover {
+	COLOR: #cc0000
+}
+A.redlink {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica; TEXT-DECORATION: underline
+}
+A.redlink:link {
+	COLOR: #cc0000
+}
+A.redlink:active {
+	COLOR: #cc0000
+}
+A.redlink:visited {
+	COLOR: #cc0000
+}
+A.redlink:hover {
+	COLOR: #cc0000
+}
+A.blink {
+	FONT-SIZE: 8pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica; TEXT-DECORATION: underline
+}
+A.blink:link {
+	COLOR: #000000
+}
+A.blink:active {
+	COLOR: #000000
+}
+A.blink:visited {
+	COLOR: #000000
+}
+A.blink:hover {
+	COLOR: #cc0000
+}
+A.white {
+	FONT-SIZE: 8pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica; TEXT-DECORATION: underline
+}
+A.white:link {
+	COLOR: #ffffff
+}
+A.white:active {
+	COLOR: #cc0000
+}
+A.white:visited {
+	COLOR: #ffffff
+}
+A.white:hover {
+	COLOR: #cc0000
+}
+A.white7 {
+	FONT-SIZE: 7pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica; TEXT-DECORATION: underline
+}
+A.white7:link {
+	COLOR: #ffffff
+}
+A.white7:active {
+	COLOR: #cc0000
+}
+A.white7:visited {
+	COLOR: #ffffff
+}
+A.white7:hover {
+	COLOR: #cc0000
+}
+A.black7 {
+	FONT-SIZE: 7pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica; TEXT-DECORATION: underline
+}
+A.black7:link {
+	COLOR: black
+}
+A.black7:active {
+	COLOR: #cc0000
+}
+A.black7:visited {
+	COLOR: black
+}
+A.black7:hover {
+	COLOR: #cc0000
+}
+A.navbar {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica; TEXT-DECORATION: underline
+}
+A.navbar:link {
+	COLOR: #ffffff
+}
+A.navbar:active {
+	COLOR: #ffffff
+}
+A.navbar:visited {
+	COLOR: #ffffff
+}
+A.navbar:hover {
+	COLOR: #040c5c
+}
+A.skip {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica; TEXT-ALIGN: right; TEXT-DECORATION: underline
+}
+A.skip:link {
+	COLOR: #003399
+}
+A.skip:active {
+	COLOR: #003399
+}
+A.skip:visited {
+	COLOR: #003399
+}
+A.skip:hover {
+	COLOR: #cc0000
+}
+A.redlink7 {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica; TEXT-DECORATION: underline
+}
+A.redlink7:link {
+	COLOR: #cc0000
+}
+A.redlink7:active {
+	COLOR: #cc0000
+}
+A.redlink7:visited {
+	COLOR: #cc0000
+}
+A.redlink7:hover {
+	COLOR: #cc0000
+}
+A.graylink7 {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica; TEXT-DECORATION: underline
+}
+A.graylink7:link {
+	COLOR: gray
+}
+A.graylink7:active {
+	COLOR: gray
+}
+A.graylink7:visited {
+	COLOR: gray
+}
+A.graylink7:hover {
+	COLOR: gray
+}
+A.graylink7light {
+	FONT-WEIGHT: normal; FONT-SIZE: 7pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica; TEXT-DECORATION: underline
+}
+A.graylink7light:link {
+	COLOR: gray
+}
+A.graylink7light:active {
+	COLOR: gray
+}
+A.graylink7light:visited {
+	COLOR: gray
+}
+A.graylink7light:hover {
+	COLOR: gray
+}
+A.bluelink {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica; TEXT-DECORATION: underline
+}
+A.bluelink:link {
+	COLOR: #003399
+}
+A.bluelink:active {
+	COLOR: red
+}
+A.bluelink:visited {
+	COLOR: #003399
+}
+A.bluelink:hover {
+	COLOR: red
+}
+A.searchlinkBig {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica; TEXT-DECORATION: underline
+}
+A.searchlinkBig:link {
+	COLOR: #006691
+}
+A.searchlinkBig:active {
+	COLOR: red
+}
+A.searchlinkBig:visited {
+	COLOR: #006691
+}
+A.searchlinkBig:hover {
+	COLOR: red
+}
+A.searchlinkSmall {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica; TEXT-DECORATION: underline
+}
+A.searchlinkSmall:link {
+	COLOR: black
+}
+A.searchlinkSmall:active {
+	COLOR: red
+}
+A.searchlinkSmall:visited {
+	COLOR: black
+}
+A.searchlinkSmall:hover {
+	COLOR: red
+}
+.btext {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.itext {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+.btext {
+	FONT-WEIGHT: bold
+}
+.itext {
+	FONT-STYLE: italic
+}
+.bwtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; FONT-FAMILY: verdana,helvetica,arial,sans-serif
+}
+.rtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; FONT-FAMILY: verdana,helvetica,arial,sans-serif
+}
+.rbtext {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; FONT-FAMILY: verdana,helvetica,arial,sans-serif
+}
+.subhead {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; FONT-FAMILY: verdana,helvetica,arial,sans-serif
+}
+.bwtext {
+	FONT-WEIGHT: bold; COLOR: #ffffff
+}
+.rtext {
+	COLOR: #cc0000
+}
+.rbtext {
+	FONT-WEIGHT: bold; COLOR: #cc0000
+}
+.subhead {
+	COLOR: #252872
+}
+.stext {
+	FONT-SIZE: 8pt; FONT-FAMILY: verdana,helvetica,arial,sans-serif
+}
+.sbtext {
+	FONT-SIZE: 8pt; FONT-FAMILY: verdana,helvetica,arial,sans-serif
+}
+.swtext {
+	FONT-SIZE: 8pt; FONT-FAMILY: verdana,helvetica,arial,sans-serif
+}
+.stext {
+	COLOR: #555555
+}
+.swtext {
+	COLOR: #ffffff
+}
+.sbtext {
+	FONT-WEIGHT: bold; COLOR: #000000
+}
+.head11 {
+	FONT-SIZE: 11pt; FONT-FAMILY: verdana,helvetica,arial,sans-serif
+}
+.text11 {
+	FONT-SIZE: 11pt; FONT-FAMILY: verdana,helvetica,arial,sans-serif
+}
+.head11 {
+	FONT-WEIGHT: bold; COLOR: #252872
+}
+.text11 {
+	COLOR: #000000
+}
+TABLE.grey {
+	BACKGROUND-COLOR: #dddddd
+}
+TR.grey {
+	BACKGROUND-COLOR: #dddddd
+}
+TD.grey {
+	BACKGROUND-COLOR: #dddddd
+}
+TABLE.white {
+	BACKGROUND-COLOR: #ffffff
+}
+TR.white {
+	BACKGROUND-COLOR: #ffffff
+}
+TD.white {
+	BACKGROUND-COLOR: #ffffff
+}
+TABLE.accent_light {
+	BACKGROUND-COLOR: #c9d7e8
+}
+TR.accent_light {
+	BACKGROUND-COLOR: #c9d7e8
+}
+TD.accent_light {
+	BACKGROUND-COLOR: #c9d7e8
+}
+TABLE.accent_dark {
+	BACKGROUND-COLOR: #70a5e6
+}
+TR.accent_dark {
+	BACKGROUND-COLOR: #70a5e6
+}
+TD.accent_dark {
+	BACKGROUND-COLOR: #70a5e6
+}
+TABLE.action {
+	BACKGROUND-COLOR: #dddddd
+}
+TR.action {
+	BACKGROUND-COLOR: #dddddd
+}
+TD.action {
+	BACKGROUND-COLOR: #dddddd
+}
+TABLE.blue_light {
+	BACKGROUND-COLOR: #cccccc
+}
+TR.blue_light {
+	BACKGROUND-COLOR: #cccccc
+}
+TD.blue_light {
+	BACKGROUND-COLOR: #cccccc
+}
+TABLE.blue_dark {
+	BACKGROUND-COLOR: #cccccc
+}
+TR.blue_dark {
+	BACKGROUND-COLOR: #cccccc
+}
+TD.blue_dark {
+	BACKGROUND-COLOR: #cccccc
+}
+.required {
+	FONT-SIZE: 12px; COLOR: #ff3300; LINE-HEIGHT: 130%; FONT-FAMILY: verdana, arial, helvetica, san-serif
+}
+.warning {
+	FONT-SIZE: 14px; COLOR: #ff3300; LINE-HEIGHT: 130%; FONT-FAMILY: verdana, arial, helvetica, san-serif
+}
+TABLE.blue_border {
+	BORDER-RIGHT: #6699cc 2px solid; BORDER-TOP: #6699cc 2px solid; BORDER-LEFT: #6699cc 2px solid; BORDER-BOTTOM: #6699cc 2px solid
+}
+TR.blue_border {
+	BORDER-RIGHT: #6699cc 2px solid; BORDER-TOP: #6699cc 2px solid; BORDER-LEFT: #6699cc 2px solid; BORDER-BOTTOM: #6699cc 2px solid
+}
+TD.blue_border {
+	BORDER-RIGHT: #6699cc 2px solid; BORDER-TOP: #6699cc 2px solid; BORDER-LEFT: #6699cc 2px solid; BORDER-BOTTOM: #6699cc 2px solid
+}
+TABLE.red_border {
+	BORDER-RIGHT: #cc0000 2px solid; BORDER-TOP: #cc0000 2px solid; BORDER-LEFT: #cc0000 2px solid; BORDER-BOTTOM: #cc0000 2px solid
+}
+TR.red_border {
+	BORDER-RIGHT: #cc0000 2px solid; BORDER-TOP: #cc0000 2px solid; BORDER-LEFT: #cc0000 2px solid; BORDER-BOTTOM: #cc0000 2px solid
+}
+TD.red_border {
+	BORDER-RIGHT: #cc0000 2px solid; BORDER-TOP: #cc0000 2px solid; BORDER-LEFT: #cc0000 2px solid; BORDER-BOTTOM: #cc0000 2px solid
+}
+TABLE.black_border {
+	BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-LEFT: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid
+}
+TR.black_border {
+	BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-LEFT: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid
+}
+TD.black_border {
+	BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-LEFT: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid
+}
+TABLE.white {
+	BACKGROUND-COLOR: #ffffff
+}
+TR.white {
+	BACKGROUND-COLOR: #ffffff
+}
+TD.white {
+	BACKGROUND-COLOR: #ffffff
+}
+TABLE.blue_header {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #6699cc; valign: middle; align: left
+}
+TR.blue_header {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #6699cc; valign: middle; align: left
+}
+TD.blue_header {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #6699cc; valign: middle; align: left
+}
+TABLE.red_header {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #cc0000; valign: middle; align: left
+}
+TR.red_header {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #cc0000; valign: middle; align: left
+}
+TD.red_header {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #cc0000; valign: middle; align: left
+}
+TABLE.blue_white {
+	FONT-SIZE: 9pt; MARGIN-LEFT: auto; VERTICAL-ALIGN: top; COLOR: #ffffff; MARGIN-RIGHT: auto; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+TR.blue_white {
+	FONT-SIZE: 9pt; MARGIN-LEFT: auto; VERTICAL-ALIGN: top; COLOR: #ffffff; MARGIN-RIGHT: auto; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+TD.blue_white {
+	FONT-SIZE: 9pt; MARGIN-LEFT: auto; VERTICAL-ALIGN: top; COLOR: #ffffff; MARGIN-RIGHT: auto; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+TABLE.blue_dark_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; MARGIN-LEFT: auto; VERTICAL-ALIGN: top; COLOR: #336699; MARGIN-RIGHT: auto; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #b1d0f0; TEXT-ALIGN: left
+}
+TR.blue_dark_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; MARGIN-LEFT: auto; VERTICAL-ALIGN: top; COLOR: #336699; MARGIN-RIGHT: auto; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #b1d0f0; TEXT-ALIGN: left
+}
+TD.blue_dark_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; MARGIN-LEFT: auto; VERTICAL-ALIGN: top; COLOR: #336699; MARGIN-RIGHT: auto; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #b1d0f0; TEXT-ALIGN: left
+}
+TABLE.blue_dark_nobold_black {
+	FONT-SIZE: 8pt; MARGIN-LEFT: auto; VERTICAL-ALIGN: top; COLOR: #000000; MARGIN-RIGHT: auto; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #b1d0f0; TEXT-ALIGN: left
+}
+TR.blue_dark_nobold_black {
+	FONT-SIZE: 8pt; MARGIN-LEFT: auto; VERTICAL-ALIGN: top; COLOR: #000000; MARGIN-RIGHT: auto; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #b1d0f0; TEXT-ALIGN: left
+}
+TD.blue_dark_nobold_black {
+	FONT-SIZE: 8pt; MARGIN-LEFT: auto; VERTICAL-ALIGN: top; COLOR: #000000; MARGIN-RIGHT: auto; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #b1d0f0; TEXT-ALIGN: left
+}
+TABLE.blue_light_nobold {
+	FONT-SIZE: 8pt; MARGIN-LEFT: auto; VERTICAL-ALIGN: middle; COLOR: #000000; MARGIN-RIGHT: auto; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #d5e8fb; TEXT-ALIGN: left
+}
+TR.blue_light_nobold {
+	FONT-SIZE: 8pt; MARGIN-LEFT: auto; VERTICAL-ALIGN: middle; COLOR: #000000; MARGIN-RIGHT: auto; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #d5e8fb; TEXT-ALIGN: left
+}
+TD.blue_light_nobold {
+	FONT-SIZE: 8pt; MARGIN-LEFT: auto; VERTICAL-ALIGN: middle; COLOR: #000000; MARGIN-RIGHT: auto; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #d5e8fb; TEXT-ALIGN: left
+}
+TABLE.blue_light_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; MARGIN-LEFT: auto; VERTICAL-ALIGN: top; COLOR: #336699; MARGIN-RIGHT: auto; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #d5e8fb; TEXT-ALIGN: left
+}
+TR.blue_light_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; MARGIN-LEFT: auto; VERTICAL-ALIGN: top; COLOR: #336699; MARGIN-RIGHT: auto; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #d5e8fb; TEXT-ALIGN: left
+}
+TD.blue_light_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; MARGIN-LEFT: auto; VERTICAL-ALIGN: top; COLOR: #336699; MARGIN-RIGHT: auto; FONT-FAMILY: verdana,arial,sans-serif,helvetica; BACKGROUND-COLOR: #d5e8fb; TEXT-ALIGN: left
+}
+A.blue_white {
+	FONT-SIZE: 8pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica; TEXT-DECORATION: underline
+}
+A.blue_white:link {
+	COLOR: #003399
+}
+A.blue_white:active {
+	COLOR: #003399
+}
+A.blue_white:visited {
+	COLOR: #003399
+}
+A.blue_white:hover {
+	COLOR: #cc0000
+}
+A.rob {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+A:link {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}
+A.bert {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+A:link {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}
+A.spiel {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+A:link {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}
+A.man {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; FONT-FAMILY: verdana,arial,sans-serif,helvetica
+}
+A:link {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}

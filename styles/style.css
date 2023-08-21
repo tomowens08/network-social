@@ -1,0 +1,136 @@
+a
+{
+    font-family:MS Sans Serif;
+    color:#000000;
+    TEXT-DECORATION: none
+    
+}
+BODY {
+	FONT-SIZE: 9px;
+    FONT-FAMILY: Verdana;
+    bgcolor:#FFFFFF;
+}
+TD {
+	FONT-SIZE: 9px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+TH {
+	FONT-SIZE: 9px; FONT-FAMILY: Verdana
+}
+.black {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	COLOR: #000000;
+	LINE-HEIGHT: normal;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.black2 {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+	LINE-HEIGHT: normal;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.black3 {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 13px;
+	COLOR: #000000;
+	LINE-HEIGHT: normal;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.black4 {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 14px;
+	COLOR: #000000;
+	LINE-HEIGHT: normal;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.white {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	COLOR: #ffffff;
+	LINE-HEIGHT: normal;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+a:link {
+  color: #FF6600;
+}
+a:visited {
+	color: #FF6600;
+}
+.style18 {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	COLOR: #ffffff;
+	LINE-HEIGHT: normal;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.login {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	COLOR: #000000;
+	LINE-HEIGHT: normal;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.style9 {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	COLOR: #000000;
+	LINE-HEIGHT: normal;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.text
+{
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	COLOR: #000000;
+	LINE-HEIGHT: normal;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.btext
+{
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10px;
+	COLOR: #000000;
+	LINE-HEIGHT: normal;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+            table.profile{width:100%;border:1px solid;border-color:#B1D0F0;background-color:#ffffff;text-align:center;}
+			table.profile TD{font-family:Verdana;color:#000000;font-size:8pt;text-decoration:none;border:none;}
+			table.blog{font-size:x-small;font-family:verdana;color:#000000;word-wrap:break-word;background-color:#B1D0F0;}
+			.blogTimeStamp{font-size:x-small;font-family:verdana;color:#000000;font-weight:bold;background-color:#B1D0F0;text-align:left;}
+			.blogSubject{font-size:x-small;font-family:verdana;color:#000000;font-weight:bold;background-color:#B1D0F0;text-align:left;}
+			.blogContent{font-size:x-small;font-family:verdana;color:#000000;font-weight:normal;}
+			.blogContentInfo{font-size:x-small;font-family:verdana;color:#000000;font-weight:normal;}
+			.blogCommentsProfile{width:25%;font-size:x-small;font-family:verdana;color:#000000;font-weight:bold;background-color:#FF9933;text-align:center;}
+			.blogComments{background-color:#F9D6B4;}
+			.blogCommentsContent{font-size:x-small;font-family:verdana;color:#000000;}
+			.spacer{height:2;background-color:#FFFFFF;}
+			.commentSpacer{height:2;background-color:#FFFFFF;}
+

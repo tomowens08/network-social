@@ -1,0 +1,9 @@
+get (Microphone.get method)
+
+Microphone.get(), both mic1 and mic2 reference the same (default) microphone.
+
+
+this.createEmptyMovieClip("sound_mc", this.getNextHighestDepth());
+System.showSettings(2);
+var active_mic:Microphone = Microphone.get();
+sound_mc.attachAudio(active_mic);

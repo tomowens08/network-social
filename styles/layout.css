@@ -1,0 +1,127 @@
+BODY {
+	PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    FONT: 8pt Verdana, Arial, Helvetica, sans-serif;
+    TEXT-TRANSFORM: none;
+    PADDING-TOP: 0px;
+    TEXT-DECORATION: none;
+}
+#wrapper {
+	MARGIN: auto; WIDTH: 800px
+}
+#header {
+	FONT-WEIGHT: normal; POSITION: relative; HEIGHT: 127px; TEXT-ALIGN: center
+}
+#header #advert {
+	BORDER-RIGHT: #000 2px solid; BORDER-TOP: #000 2px solid; LEFT: 50%; MARGIN-LEFT: -310px; OVERFLOW: hidden; BORDER-LEFT: #000 2px solid; WIDTH: 619px; BOTTOM: 20px; BORDER-BOTTOM: #000 2px solid; POSITION: absolute; HEIGHT: 60px
+}
+ HTML #header #advert {
+	WIDTH: 618px
+}
+#header #advert IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: 50%; PADDING-TOP: 0px
+}
+#header #advert IFRAME {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#header FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: x-small; RIGHT: 1%; LEFT: 185px; PADDING-BOTTOM: 0px; MARGIN: auto; WIDTH: auto; PADDING-TOP: 0px; POSITION: absolute; TOP: 5px; TEXT-ALIGN: left
+}
+#header FORM INPUT {
+	FONT-SIZE: 10px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+#header FORM INPUT.buttom {
+	FONT-SIZE: 10px; MARGIN: 0px 0px 0px 8px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #e0ffff
+}
+#header .left {
+	MARGIN-TOP: 9px; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 9px
+}
+#header .right {
+	DISPLAY: inline; FONT-WEIGHT: normal; FLOAT: right; MARGIN: 9px 9px 0px 10px
+}
+#header .hide {
+	DISPLAY: none
+}
+#header A {
+	TEXT-DECORATION: none
+}
+#header A:link {
+	TEXT-DECORATION: none
+}
+#header A:hover {
+	TEXT-DECORATION: underline
+}
+#header FIELDSET {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#header LEGEND {
+	DISPLAY: none
+}
+#nav {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 1px; HEIGHT: 25px; TEXT-ALIGN: left
+}
+#nav UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: auto; PADDING-TOP: 5px; LIST-STYLE-TYPE: none
+}
+#nav LI {
+	BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 6px; DISPLAY: inline; PADDING-LEFT: 7px; PADDING-BOTTOM: 0px; MARGIN: 2px 0px 0px; PADDING-TOP: 0px
+}
+#nav P {
+	MARGIN: 6px auto; TEXT-ALIGN: center
+}
+#nav A {
+	MARGIN: 0px 4px 0px 5px; TEXT-DECORATION: none
+}
+#nav A:link {
+	MARGIN: 0px 4px 0px 5px; TEXT-DECORATION: none
+}
+#nav A:hover {
+	TEXT-DECORATION: underline
+}
+#nav .last {
+	BORDER-RIGHT-STYLE: none
+}
+#footer {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px; PADDING-TOP: 10px; TEXT-ALIGN: center
+}
+#footer UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 15px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#footer LI {
+	BORDER-RIGHT: #039 1px solid; PADDING-RIGHT: 8px; DISPLAY: inline; PADDING-LEFT: 8px; FONT-WEIGHT: bold
+}
+#footer .last {
+	BORDER-RIGHT-STYLE: none
+}
+#footer P {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: x-small; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 5px
+}
+#footer P.nav {
+	FONT-SIZE: 8pt; COLOR: #039
+}
+#footer P.nav A {
+	MARGIN: 0px 5px 0px 8px
+}
+#footer P.end {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#footer P.end A {
+	FONT-SIZE: xx-small; TEXT-DECORATION: underline
+}
+#footer A {
+	FONT-WEIGHT: normal
+}
+#nav .hide {
+	DISPLAY: none
+}
+#main {
+	WIDTH: 800px
+}
+.clearing {
+	CLEAR: both; DISPLAY: block; OVERFLOW: hidden; HEIGHT: 1px
+}
+.hidden {
+	DISPLAY: none
+}

@@ -1,0 +1,162 @@
+.unnamed1 {
+	BACKGROUND-COLOR: #ffcc00
+}
+.text_black {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.text {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.bold_black {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.black_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.box_manishmanish {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 10px; BORDER-LEFT: #000000 1px solid; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.white_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.white {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.dark_blue {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #C3CED5; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.red {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #ff0000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.bold_gray {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.small_gray {
+	FONT-WEIGHT: bold; FONT-SIZE: 9px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.red_desc {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #cc0000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.bold_blue {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #6699cc; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.light_orange {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ff9900; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.box_manish1 {
+	BORDER-RIGHT: #000000; BORDER-TOP: #000000; FONT-WEIGHT: normal; FONT-SIZE: 10px; BORDER-LEFT: #000000; COLOR: #000000; BORDER-BOTTOM: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.box_manish2 {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #000000 1px solid; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #f9f9f9; TEXT-DECORATION: none
+}
+.box_manish {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 10px; BORDER-LEFT: #000000 1px solid; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #f9f9f9
+}
+.game_action {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #e06c55; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.game_arcade {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #a59071; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.game_board {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #e5823e; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.game_puzzle {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #d39134; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.game_sports {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #7ea362; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.game_trivia {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #749f98; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.2side {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 0px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 0px solid
+}
+.box {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #000000 1px solid; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.box_only {
+	BORDER-RIGHT: #000000; BORDER-TOP: #000000; FONT-SIZE: 11px; BORDER-LEFT: #000000; COLOR: #000000; BORDER-BOTTOM: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #bfdcfb; TEXT-DECORATION: none
+}
+.table_border {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+.td_border {
+	BORDER-RIGHT: #0fa356 1px solid; BORDER-TOP: #0fa356 1px solid; BORDER-LEFT: #0fa356 1px solid; BORDER-BOTTOM: #0fa356 1px solid
+}
+.bluse_2side {
+	BORDER-RIGHT: #0033cc 1px solid; BORDER-TOP: #0033cc 1px solid; BORDER-LEFT: #0033cc 1px solid; BORDER-BOTTOM: #0033cc 0px solid; BACKGROUND-COLOR: #cfe0fa
+}
+.right_border {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 0px solid; FONT-SIZE: 11px; BORDER-LEFT: #cccccc 0px solid; COLOR: #000000; BORDER-BOTTOM: #cccccc 0px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.box_new {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #000000 1px solid; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #bfdcfb; TEXT-DECORATION: none
+}
+.4side {
+	BORDER-RIGHT: #993300 1px solid; BORDER-TOP: #993300 1px solid; BORDER-LEFT: #993300 1px solid; BORDER-BOTTOM: #993300 1px solid
+}
+.blue_txt {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #0066ff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.brown_txt {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #cc6600; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.bold_brown {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #cc6600; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.box_manish {
+	BORDER-RIGHT: #996600 1px solid; BORDER-TOP: #996600 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #996600 1px solid; COLOR: #000000; BORDER-BOTTOM: #996600 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #faf9f1; TEXT-DECORATION: none
+}
+.white_txt {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.text {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.text_blue {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #0000ff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.button {
+	BORDER-RIGHT: #ff9900 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ff9900 1px solid; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(index_45.jpg); PADDING-BOTTOM: 1px; BORDER-LEFT: #ff9900 1px solid; COLOR: #ffffff; PADDING-TOP: 1px; BORDER-BOTTOM: #ff9900 1px solid; BACKGROUND-REPEAT: repeat; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 28px
+}
+.white_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.TOO_LINK {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #993300; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.bold_black {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.bold_red {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #ff0000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.bold_green {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #00ff00; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.bold_blue1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #0000ff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.bold_black1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.dark_blue1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #000099; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.tr_head {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #8fa7bf; TEXT-DECORATION: none
+}
+.tr_row {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #bcdfe9; TEXT-DECORATION: none
+}
+.white_link {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.red_blink {
+	TEXT-DECORATION: blink
+}
+.bold_red_small {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ff0000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}

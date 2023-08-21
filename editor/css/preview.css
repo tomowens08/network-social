@@ -1,0 +1,67 @@
+#mysbody {
+	padding: 15px 15px 0;
+	margin: 0;
+	background-color: #FFFFFF;
+	background-image: url();
+	background-position: left top;
+	background-repeat: repeat;
+	text-align: center;
+	overflow: hidden;
+	width: 380px;
+	height: 471px;
+	voice-family:"\"}\"";
+	voice-family:inherit;
+	width: 350px;
+	height: 456px;
+	}
+#mystable1, #mystable2 {
+	padding: 0;
+	margin: 0;
+	background-color: #FFFFFF;
+	border: 2px solid #666666;
+	text-align: left;
+	width: 350px;
+	voice-family:"\"}\"";
+	voice-family:inherit;
+	width: 348px;
+	}
+#mystable1 {
+	border-width: 0;
+	}
+#mysname {
+	padding: 0;
+	margin: 0;
+	font: bold 15px Verdana;
+	text-align: left;
+	}
+#mystitle {
+	padding: 4px 10px;
+	margin: 0;
+	background-color: transparent;
+	font: bold 12px Verdana;
+	color: #6699CC;
+	text-align: left;
+	}
+#mystext {
+	font: normal 11px Verdana;
+	color: #000000;
+	}
+#mysspacer {
+	padding: 0;
+	margin: 0;
+	height: 15px;
+	width: 350px;
+	overflow: hidden;
+	}
+#mysonline {
+	text-decoration: none;
+	}
+a#myslink:link, a#myslink:active, a#myslink:visited, a#myslink:hover {
+	color: #003399;
+	font: bold 11px Verdana;
+	text-decoration: none;
+	}
+a#myslink:hover {
+	color: #CC0000;
+	text-decoration: underline;
+	}

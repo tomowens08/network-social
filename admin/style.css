@@ -1,0 +1,62 @@
+body
+	{
+	background-color:#FFFFFF ; 
+	color:#000000 ; 
+	font-family:verdana; 
+	font-size:8pt ; 
+	margin:0 ;
+	text-align:center;
+	}
+td
+	{
+	font-family:verdana; 
+	font-size:8pt ; 
+	}
+img
+	{
+	border:0 ;
+	}
+input
+	{
+	background-color:#FFFFFF;
+	border:#000000 solid 1px;
+	font-size:8pt
+	}
+a
+	{
+	color:#670808 ;
+	}
+.lsep
+	{
+	border-right:#670808 solid 1px ; 
+	}
+.headcell
+	{
+	background-image:url(http://www.vastal.com/games/admin/images/menut1.gif) ;
+	color:#670808 ;
+	font-size:10pt ;
+	font-weight:bold ;
+	text-align:center
+	}
+.headcell.a
+	{
+	color:#FFFFFF ;
+	}
+.textcell
+	{
+	text-indent:6pt ;
+	border-left:#F6EEEE solid 1px ; 
+	border-right:#F6EEEE solid 1px ; 
+	border-bottom:#F6EEEE solid 1px ; 
+	}
+.desc
+	{
+	border-bottom:#dadada solid 1px;
+	}
+.cella
+	{	
+	border-left:#DADADA solid 1px ; 
+	border-right:#DADADA solid 1px ; 
+	border-bottom:#DADADA solid 1px ; 	
+	background-color:#F6F2F ;
+	}

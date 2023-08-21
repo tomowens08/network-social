@@ -1,0 +1,48 @@
+#wrapper {
+	
+}
+#header {
+	BACKGROUND: #039; COLOR: #ffffff
+}
+#main {
+	BACKGROUND: #fff
+}
+#advert {
+	BACKGROUND: #ffffff
+}
+#nav {
+	BACKGROUND: #6698cb
+}
+#nav A {
+	COLOR: #ffffff
+}
+#nav A:link {
+	COLOR: #ffffff
+}
+#nav A:visited {
+	COLOR: #ffffff
+}
+#nav A:hover {
+	COLOR: #040c5c
+}
+A {
+	COLOR: #003399
+}
+A:link {
+	COLOR: #003399
+}
+A:visited {
+	COLOR: #003399
+}
+A:hover {
+	COLOR: #c00
+}
+#header A {
+	COLOR: #ffffff
+}
+#header A:link {
+	COLOR: #ffffff
+}
+#header A:visited {
+	COLOR: #ffffff
+}

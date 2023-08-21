@@ -1,0 +1,101 @@
+﻿
+
+body {font-size:62.5%;}
+a {font-size:11px;}
+
+.cols {border:3px solid #FFFFFF;}
+.cols th, .cols td {border:3px solid #FFFFFF;}
+.cols th {background-color:#B1D0F0;color:#336699;}
+.cols td {background-color:#D5E8FB;}
+.section {margin-bottom:15px;}
+.hide {display:none;}
+.show {display:block;}
+
+	#topnav, #nav, #header, #footer, #content {font-size:11px;}
+    #nav{position:inherit; width:40%; left:56%; top:5px; margin-right:2%; margin-top:5px; }
+	#content{position:inherit; width:54%; margin-left:2%; top:5px; margin-right:2%; margin-top:5px; }
+	#contentWrap{position:static;} 
+	#ad1{position:absolute; left:805px; top:20px;}
+	#ad2{text-align:center;}
+	#main {position:relative}
+	.section {border-width:1px;}
+	.heading {line-height:2.25em; font-size:12px; padding-left:4px;}
+    .addClass a {color:#FF0000; margin-left:25px; font-weight:normal; text-decoration:underline;}
+    
+    #home_profileInfo {background-color:#D5E8FB; font-size:9px;padding-bottom:12px;}
+	#home_profileInfo .heading {font-size:22.5px; padding:0; padding-left:15px; line-height:1.3em;margin-bottom:13px;}
+	#home_profileInfoLinks {padding-left:2.9px; }
+	#home_profileInfo a {font-size:9px;}
+	
+	#home_additionalLinks span {color:#CC0000;}
+	
+	#home_announcements .heading {line-height:1.25em; background-color: #666666;}
+	#home_announcements strong span {color:#FF0000;}
+	#home_announcements_image {text-align:center;}
+	#home_announcements_message {margin:3px;}
+	#home_announcements {border:1px solid #666666; background-color: #EFEFEF}
+              
+	#home_pickURL {border-color:#CC0000; border-width:2px; text-align:center}
+	#home_pickURL span {color:#FF0000; font-size:12px;}
+	
+	#home_setHomePage, #home_additionalLinks {border:0;}
+	#home_setHomePage {text-align:center;}
+	
+	#home_shows span {color:#FF0000;}
+	#home_shows .heading {margin-bottom:7px;}
+	
+	#home_messages .cols td {text-align:center; vertical-align:middle; padding:10px; width:50%;}
+
+    .indicator {padding:4px; vertical-align:middle;}
+    .indicator a, .indicator a:hover {font-size:12px; color:#0000FF;}
+    #indicatorMail a, #indicatorMail a:hover {color:#FF0000;}
+	
+	#home_schools span {color:#FF0000;}
+	#home_schools span .a {color:#FF0000;}
+	#home_courselist a {font-weight:lighter;}
+	
+	#home_bulletins {padding-bottom:10px;}
+	#home_bulletins .cols, #home_shows .cols {margin-top:8px; border:7px solid #FFFFFF;}
+	#home_bulletins .cols th, #home_shows .cols th {background-color:#FFFFFF; border-bottom:7px solid #FFFFFF; font-weight:normal; font-size:11px; color:#003399;}
+	#home_bulletins a, #home_shows a, #home_shows strong {margin-left:8px;}
+	#home_bulletins .cols th, #home_bulletins .cols td {vertical-align:middle; width:auto;}
+	#home_bulletins .bulletinDate {white-space:nowrap;}
+	#home_bulletins .bulletinTitle {background-color:#B1D0F0;}
+
+	
+	#home_bulletins td a {margin-left:0px;}
+	#home_bulletinMaintenance {padding:10px;}
+    
+    #squareAd {width:300px; text-align:center; float:left; margin-bottom:15px;}
+    
+    #home_infoBar {font-size:11px; width:115px; height:250px; float:left; margin-left:10px; border:1px solid #000000; text-align:center;}
+    #home_infoBar .heading {background-color:#003399; font-size:11px; margin-bottom:5px;}
+    #home_infoBar span {color:#CC0000; display:block;}
+    #home_infoBar .section {padding-bottom:0px;}
+	
+	#splash_coolNewPeople {border:1px solid #FFCC99;}
+	#splash_coolNewPeople .heading {background-color:#FFCC99; color:#FF6600; padding-left:15px; text-align:left;}
+	.w120{width:225px;}
+	#splash_coolNewPeople {text-align:center;}
+	#splash_coolNewPeople img {margin-top:10px; margin-bottom:23px;}
+	*html #splash_coolNewPeople img {margin-bottom:2px;}
+	#splash_coolNewPeopleBrowse a {font-size:9px; margin-top:5px;}
+	
+	#splash_profile {width:75px;}
+	                       
+    #home_friends {border:1px solid #FFCC99; text-align:center;}  
+	#home_friends .heading {background-color:#FFCC99;color:#FF6600; height:1.3em; padding-left:15px; vertical-align:middle; padding-bottom:10px; float:right;}
+	*html #home_friends .heading {padding-bottom:0;}
+	#home_friends .heading a {font-size:9px; padding-right:5px;}
+	#home_friendsBirthdays {text-align:right;}
+    #home_friendsTop8 span {color:#FF0000;}
+	
+	#home_friends2 {border:1px solid #FFCC99; text-align:center;}  
+	#home_friends2 .heading {background-color:#FFCC99;color:#FF6600; height:1.3em; padding-left:15px; vertical-align:middle; padding-bottom:10px; float:right;}
+	*html #home_friends2 .heading {padding-bottom:0;}
+	#home_friends2 .heading a {font-size:9px; padding-right:5px;}
+	#home_friends2Birthdays {text-align:right;}
+    #home_friends2Top8 span {color:#FF0000;}
+    
+    /*online now*/
+    #UserDataNode img {padding-left:5px; text-align:center;}        

@@ -1,0 +1,55 @@
+<?php
+session_start();
+?>
+<HTML>
+<HEAD>
+<link rel=stylesheet href=style.css type=text/css>
+</HEAD>
+<BODY>
+<?
+if ($_SESSION["user_admin"]!="Yes")
+{
+
+  print "You need to login before you can view this page";
+}
+  else
+{
+
+  print "<table align='center'><tr><td width='100%' class='lsep' height='218' valign='top'>";
+  print "<table border='0' cellpadding='0' cellspacing='0' width='100%' height='28'><tr>";
+  print "<td class='headcell' height='20'>Edit a event category</td></tr>";
+
+  print "<tr><td height='13' class='textcell'><table>";
+include("includes/conn.php");
+
+$cat_name=$HTTP_POST_VARS["cat_name"];
+$cat_desc=$HTTP_POST_VARS["cat_desc"];
+$cat_type=$HTTP_POST_VARS["cat_type"];
+
+
+  if ($cat_name=="")
+  {
+    print "You did not enter all the required fields. Please go back and correct the problem.";
+  }
+    else
+  {
+     include("../includes/events.class.php");
+     $group=new events;
+     $res=$group->edit_category($HTTP_GET_VARS["id"], $cat_name, $cat_desc, $cat_type);
+     if($res)
+     {
+         print "The events has been edited successfully.";
+     }
+     else
+     {
+         print "There was an error and the category was not edited successfully.";
+     }
+  }
+ }
+print "</table></table>";
+?>
+
+
+</BODY>
+</HTML>
+
